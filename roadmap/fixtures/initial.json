@@ -1,0 +1,85 @@
+[
+{
+  "fields": {
+    "explanation": "Do some things",
+    "name": "Step 1"
+  },
+  "model": "roadmap.roadmapstep",
+  "pk": 1
+},
+{
+  "fields": {
+    "explanation": "Do some other things",
+    "name": "Step 2"
+  },
+  "model": "roadmap.roadmapstep",
+  "pk": 2
+},
+{
+  "fields": {
+    "explanation": "Get some help to do this other thing",
+    "name": "Step 3"
+  },
+  "model": "roadmap.roadmapstep",
+  "pk": 3
+},
+{
+  "fields": {
+    "explanation": "Celebrate!",
+    "name": "Step 4"
+  },
+  "model": "roadmap.roadmapstep",
+  "pk": 4
+},
+{
+  "fields": {
+    "steps": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "name": "Sample Roadmap 1"
+  },
+  "model": "roadmap.roadmap",
+  "pk": 1
+},
+{
+  "fields": {
+    "username": "BryceYork",
+    "first_name": "Bryce",
+    "last_name": "York",
+    "is_active": true,
+    "is_superuser": false,
+    "is_staff": false,
+    "last_login": null,
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$MDp86IaczadK$xOck/mEObBRvEHejzyJ+Y710SIvv4cSWE5ghT5JAngg=",
+    "email": "byork@fusionlabs.com.au",
+    "date_joined": "2019-02-01T15:34:29Z"
+  },
+  "model": "auth.user",
+  "pk": 2
+},
+{
+  "fields": {
+    "description": "This is a sample project",
+    "roadmap": 1,
+    "owner": 2,
+    "name": "Example Project A"
+  },
+  "model": "roadmap.project",
+  "pk": 1
+},
+{
+  "fields": {
+    "description": "This is a different project",
+    "roadmap": 1,
+    "owner": 2,
+    "name": "Example Project B"
+  },
+  "model": "roadmap.project",
+  "pk": 2
+}
+]
